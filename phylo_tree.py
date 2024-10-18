@@ -17,7 +17,7 @@ def load_sequences_from_txt(txt_file):
                 sequences.append(seq_record)
     return sequences
 
-txt_file = r"c:\Users\asus\OneDrive - Bina Nusantara\Course SEM III\Comp BIO\assignment\Forum1\input.txt"
+txt_file = "input.txt"
 sequences = load_sequences_from_txt(txt_file)
 
 # Step 2: Create a Multiple Sequence Alignment object from the sequences
